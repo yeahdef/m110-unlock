@@ -67,7 +67,7 @@ If that all sounds fine, here's the whole thing.
 ### 1. Put the printer into recovery mode
 Connect: **computer → dongle → printer** (with your data cable).
 1. Turn the printer **fully off**.
-2. **Press and hold** the dongle's download button (a light on it will change).
+2. **Press and hold** the dongle's download button, you might have to click several times, when it is red - continue holding (when the light is RED, you're good).
 3. **While still holding it, turn the printer on.** Its screen stays **blank** — that's
    normal and means it worked. Your computer now sees the printer's chip as a little disk.
 
@@ -100,7 +100,7 @@ cmp readback.bin m110_patched.bin && echo "flash verified"
 ```
 
 ### 5. Turn it on and try it
-Power the printer off, then on normally (you'll see the usual startup screen). Load any
+unplug the printer from USB dongle, Power the printer off, then back on (you'll see the usual startup screen). Load any
 roll — Phomemo's, a third‑party one, whatever — and print. Done.
 
 ### If something goes wrong
