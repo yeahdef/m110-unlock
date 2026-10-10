@@ -1,0 +1,4 @@
+# never commit firmware dumps — this project ships no firmware
+*.bin
+__pycache__/
+*.pyc
